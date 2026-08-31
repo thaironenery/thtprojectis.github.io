@@ -3,43 +3,61 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Fonte condensada e moderna -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- Fonte serifada para o nome da marca -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
 
-    <title>THTPROJECTIS</title>
+    <title>THTPROJECTIS - Manutenção</title>
 
     <style>
         body {
-            font-family: "Roboto Condensed", sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #000000; /* Fundo totalmente preto */
+            height: 100vh;
+            background-color: #000000; /* Fundo preto total */
+            color: #ffffff; /* Texto branco */
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            font-family: 'Roboto', sans-serif;
         }
 
         h1 {
+            font-family: 'Playfair Display', serif; /* Fonte serifada para a marca */
             font-size: 80px;
             font-weight: 700;
-            color: #ffffff; /* Letra branca */
             letter-spacing: 3px;
             margin: 0;
+            color: #ffffff;
         }
 
         p {
-            font-size: 30px;
-            color: #ffffff; /* Letra branca */
-            margin-top: 15px;
+            font-size: 28px;
+            margin-top: 20px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        .line {
+            width: 120px;
+            height: 3px;
+            background-color: #ffffff;
+            margin: 25px 0;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 14px;
+            color: #888888;
         }
     </style>
 </head>
 
 <body>
     <h1>THTPROJECTIS</h1>
+    <div class="line"></div>
     <p>Em manutenção</p>
+    <footer>© 2026 THTPROJECTIS. Todos os direitos reservados.</footer>
 </body>
 </html>
